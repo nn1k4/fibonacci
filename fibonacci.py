@@ -16,7 +16,7 @@ def main():
     result = fibonacci(n)
     end_time = time.time()
     execution_time = end_time - start_time
-    sys.set_int_max_str_digits(2147483647)  # Increase the maximum number of digits to 1000000000
+    sys.set_int_max_str_digits(2147483647)  # Increase the maximum number of digits to 2147483647
     result_str = f"Execution time: {execution_time} seconds\nFibonacci number at position {n} is {result}"
 
     if os.path.exists("result.txt"):
