@@ -16,9 +16,39 @@ This function is the entry point of the program. It prompts the user to enter a 
 
 The result, along with the execution time, is then written to a file named "result.txt". If the file already exists, the program asks the user if they want to overwrite it. If the user answers anything other than "y", the program terminates.
 
-## How to Run
+## How to Run 
 
-To run the program, simply execute the `fibonacci.py` script with Python 3. You will be prompted to enter a positive integer, and the result will be written to "result.txt" in the same directory.
+To run the code in this repository, follow these steps:
+
+1. Open a terminal or command prompt and navigate to the project directory.
+
+2. Activate the virtual environment by running the following command: 
+
+```
+venv\Scripts\activate
+
+```
+
+You should see `(venv)` at the beginning of your command prompt, indicating that the virtual environment is active.
+
+3. Once the virtual environment is activated, run the code using the following command:
+
+```
+python -m test
+
+```
+
+This command will execute the `test` module, which corresponds to the `test.py` file in the project directory.
+
+4. After running the code, you can deactivate the virtual environment by running the following command:
+
+```
+venv\Scripts\deactivate
+
+```
+This will return you to your normal command prompt.
+
+Note: Make sure you have the necessary dependencies installed in your virtual environment before running the code. If you encounter any missing dependencies, you can install them using `pip install <package-name>` while the virtual environment is active.
 
 ## Dependencies
 
