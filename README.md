@@ -22,7 +22,13 @@ To run the code in this repository, follow these steps:
 
 1. Open a terminal or command prompt and navigate to the project directory.
 
-2. Activate the virtual environment by running the following command: 
+2. If the `venv` directory doesn't exist in the project's root directory, create a virtual environment by running the following command:
+
+    ```
+    python -m venv venv
+    ```
+
+3. Activate the virtual environment by running the following command: 
 
     ```
     venv\Scripts\activate
@@ -30,7 +36,7 @@ To run the code in this repository, follow these steps:
 
 You should see `(venv)` at the beginning of your command prompt, indicating that the virtual environment is active.
 
-3. Once the virtual environment is activated, run the code using the following command:
+4. Once the virtual environment is activated, run the code using the following command:
 
     ```
     python -m test
@@ -38,7 +44,7 @@ You should see `(venv)` at the beginning of your command prompt, indicating that
 
 This command will execute the `test` module, which corresponds to the `test.py` file in the project directory.
 
-4. After running the code, you can deactivate the virtual environment by running the following command:
+5. After running the code, you can deactivate the virtual environment by running the following command:
 
     ```
     venv\Scripts\deactivate
@@ -46,6 +52,7 @@ This command will execute the `test` module, which corresponds to the `test.py` 
 This will return you to your normal command prompt.
 
 Note: Make sure you have the necessary dependencies installed in your virtual environment before running the code. If you encounter any missing dependencies, you can install them using `pip install <package-name>` while the virtual environment is active.
+
 
 ## Dependencies
 
